@@ -1,3 +1,14 @@
+# if open new terminal, in each terminal
+* source devel/setup.bash 
+* comment 
+
+# if runros is error,
+* rm -rf build/
+* rm -rf devel/
+* catkin_make
+
+------------------------------------------------------------------------------------
+
 # simple_arm
 A mini-project to better explain pub-sub architecture in ROS
 
@@ -57,3 +68,5 @@ $ wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 $ sudo apt-get update
 $ sudo apt-get install gazebo7
 ```
+
+
